@@ -3,7 +3,7 @@ import NavItemList from "./NavItemList";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full bg-red-500 h-[96px] px-40 flex flex-row items-center justify-between">
+    <div className="fixed w-full h-[96px] px-40 flex flex-row items-center justify-between">
       Logo
       <NavItemList />
     </div>

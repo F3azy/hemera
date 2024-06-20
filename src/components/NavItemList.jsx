@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { navItems } from "../const/navItems";
+import NavItem from "./NavItem";
 
 const NavItemList = () => {
   return (
-    <div>NavItemList</div>
-  )
-}
+    <div className="flex flex-row gap-x-11">
+      {navItems.map((navItem) => (
+        <NavItem item={navItem} />
+      ))}
+    </div>
+  );
+};
 
-export default NavItemList
+export default NavItemList;
