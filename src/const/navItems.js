@@ -1,7 +1,7 @@
 export const navItems = [
-  { id: "oNas", title: "O Nas" },
-  { id: "zaKamera", title: "Za Kamerą" },
-  { id: "projekty", title: "Projekty" },
-  { id: "opinie", title: "Opinie" },
-  { id: "kontakt", title: "Kontakt" },
+  { id: "oNas", title: "O Nas", page: "onas" },
+  { id: "zaKamera", title: "Za Kamerą", page: "zespol" },
+  { id: "projekty", title: "Projekty", page: "portfolio" },
+  { id: "opinie", title: "Opinie", page: "opinie" },
+  { id: "kontakt", title: "Kontakt", page: "kontakt" },
 ];
