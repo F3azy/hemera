@@ -1,11 +1,14 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const NavItem = ({ item }) => {
-  const active = "";
+  const { pathname } = useLocation();
   return (
     <div className="relative">
-      <div className="text-white-base text-lg">{item.title}</div>
-      {active == item.id && (
+      <Link to={item.page} className="text-white-base text-lg">
+        {item.title}
+      </Link>
+      {pathname == item.page && (
         <div className="absolute w-6 h-[3px] bg-brand-primary" />
       )}
     </div>
