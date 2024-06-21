@@ -5,7 +5,7 @@ import { HemeraLogo } from "../assets";
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full h-[96px] px-40 flex flex-row items-center justify-between">
+    <nav className="fixed z-30 w-full h-[96px] px-40 flex flex-row items-center justify-between">
       <Link to="/">
         <img className="w-[100px]" src={HemeraLogo} alt="logo" />
       </Link>
