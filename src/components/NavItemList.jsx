@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 
 const NavItemList = () => {
   return (
-    <div className="flex flex-row gap-x-11">
+    <div className="hidden xl:flex flex-row gap-x-11">
       {navItems.map((navItem) => (
         <NavItem key={navItem.id} item={navItem} />
       ))}
