@@ -1,9 +1,13 @@
 import React from "react";
 
-const SocialIcon = ({ icon }) => {
+const SocialIcon = ({ link, Icon }) => {
   return (
-    <a href={icon.link} target="_blank" className="text-white-base hover:text-brand-primary cursor-pointer">
-      <icon.icon size={25} />
+    <a
+      href={link}
+      target="_blank"
+      className="text-white-base hover:text-brand-primary cursor-pointer"
+    >
+      {Icon && <Icon size={25} />}
     </a>
   );
 };
