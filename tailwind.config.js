@@ -8,7 +8,7 @@ export default {
           primary: "#DBD424",
         },
         dark: {base: "#2B2B2B"},
-        white: { base: "#FBFBFB" },
+        white: { base: "#FBFBFB", darker: "#DFDFDF" },
       },
     },
   },
