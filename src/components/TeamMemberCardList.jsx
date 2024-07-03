@@ -4,7 +4,7 @@ import TeamMemberCard from "./TeamMemberCard";
 
 const TeamMemberCardList = () => {
   return (
-    <div className="flex flex-col xl:flex-row justify-between gap-y-5">
+    <div className="w-full grid xl:grid-cols-[repeat(3,_256px)] justify-around">
       {team.map((member) => (
         <TeamMemberCard
           key={member.name}
