@@ -3,7 +3,7 @@ import { HeroBG } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="h-screen xl:h-full flex flex-col xl:flex-row justify-center items-center relative">
+    <div className="h-screen xl:h-full -mt-[96px] xl:m-0 flex flex-col xl:flex-row justify-center items-center relative">
       <div className="absolute top-0 -left-5 xl:-left-40 h-full w-screen ">
         <video
           className="object-cover w-screen h-screen xl:w-full absolute xl:fixed xl:top-0 xl:left-0 z-0"

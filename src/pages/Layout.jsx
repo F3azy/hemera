@@ -5,10 +5,10 @@ import SocialIconList from "../components/SocialIconList";
 
 const Layout = () => {
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col overflow-x-clip xl:overflow-clip">
       <Navbar />
       <SocialIconList />
-      <main className="w-screen px-5 xl:px-40 xl:pt-[96px] flex-1">
+      <main className="w-screen px-5 xl:px-40 pt-[96px] flex-1">
         <Outlet />
       </main>
       <Footer />
