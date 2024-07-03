@@ -24,7 +24,7 @@ const Footer = () => {
         <p>
           WEBSITE BY{" "}
           <a
-            className="underline"
+            className="underline hover:text-brand-primary"
             href="https://www.fcarvelli.com/"
             target="_blank"
           >
