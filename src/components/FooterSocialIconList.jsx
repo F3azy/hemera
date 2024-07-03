@@ -6,7 +6,7 @@ const FooterSocialIconList = () => {
   return (
     <div className="flex gap-x-12">
       {socialIcons.map((icon) => (
-        <SocialIcon icon={icon} />
+        <SocialIcon key={icon.name} icon={icon} />
       ))}
     </div>
   );
