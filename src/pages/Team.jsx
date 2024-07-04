@@ -4,7 +4,7 @@ import TeamMemberCardList from "../components/TeamMemberCardList";
 
 const Team = () => {
   return (
-    <div className="h-full flex flex-col justify-center gap-y-5 xl:gap-y-10 relative">
+    <div className="h-full flex flex-col justify-around items-center relative">
       <PageTitle>POZNAJ NASZ ZESPÓŁ</PageTitle>
       <TeamMemberCardList />
     </div>
