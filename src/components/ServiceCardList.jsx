@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 const ServiceCardList = () => {
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 gap-16 z-10">
       {services.map((service) => (
         <ServiceCard
           name={service.name}
