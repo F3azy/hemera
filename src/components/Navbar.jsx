@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`fixed z-[9999] w-full h-[96px] px-5 xl:px-40 flex flex-row items-center justify-between ${backGround}`}>
+    <nav className={`fixed z-[9999] w-full h-[96px] px-5 xl:px-40 flex flex-row items-center justify-between ${backGround} transition-[background]`}>
       <Link to="/">
         <img className="w-[100px]" src={HemeraLogo} alt="logo" />
       </Link>
