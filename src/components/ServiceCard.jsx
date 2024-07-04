@@ -10,8 +10,10 @@ const ServiceCard = ({ name, description, Icon }) => {
         </div>
       )}
       <div className="flex flex-col gap-y-3">
-        <p className="text-white-base font-bold tracking-wider text-2xl">{name}</p>
-        <p className="text-white-darker tracking-wide text-lg">{description}</p>
+        <p className="text-white-base font-bold tracking-wider text-2xl">
+          {name}
+        </p>
+        <p className="text-white-darker tracking-wide text-xl xl:text-lg">{description}</p>
       </div>
     </div>
   );
