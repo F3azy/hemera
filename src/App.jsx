@@ -1,9 +1,19 @@
-import { About, Contact, Hero, Team, Testimonials, Work, Layout } from "./pages";
+import ScrollToTop from "./components/ScroolToTop";
+import {
+  About,
+  Contact,
+  Hero,
+  Team,
+  Testimonials,
+  Work,
+  Layout,
+} from "./pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Hero />} />
