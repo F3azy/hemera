@@ -13,7 +13,7 @@ const Hero = () => {
         >
           <source src={HeroBG} type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-black opacity-50 z-10" />
+        <div className="absolute left-0 right-0 -top-24 bottom-0 xl:-bottom-14 bg-black opacity-50 z-10" />
       </div>
       <div className="relative z-30 xl:w-5/6 text-center text-[32px] xl:text-[80px] font-bold">
         <h2 className="text-white-base">
