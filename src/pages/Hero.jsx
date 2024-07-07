@@ -16,9 +16,9 @@ const Hero = () => {
         </video>
         <div className="absolute left-0 right-0 -top-24 bottom-0 xl:-bottom-14 bg-black opacity-50 z-10" />
       </div>
-      <div className="z-30 flex flex-col items-center gap-y-10">
+      <div className="z-30 flex flex-col items-center mt-5 xl:m5-0 gap-y-5">
         <div className="xl:hidden w-full h-[1px] border-t-[1px] border-brand-primary" />
-        <div className=" xl:w-5/6 text-center text-[32px] xl:text-[80px] font-bold">
+        <div className=" xl:w-5/6 text-center text-2xl/normal xl:text-7xl/normal font-bold">
           <h2 className="text-white-base">
             Od pomysłu do gotowego wideo, wszystko w jednym miejscu.
           </h2>

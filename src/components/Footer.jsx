@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <p>kontakt@hemerastudios.pl</p>
       </div>
-      <div className="w-full flex flex-col xl:flex-row justify-between items-center gap-y-2">
+      <div className="w-full flex flex-col xl:flex-row justify-between items-center gap-y-2 text-sm xl:text-base">
         <p>© COPYRIGHT 2024 HEMERA STUDIOS</p>
         <p>
           WEBSITE BY{" "}
