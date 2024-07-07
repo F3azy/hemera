@@ -12,12 +12,12 @@ const Footer = () => {
       <div className="flex flex-col xl:hidden items-center gap-y-8 font-semibold">
         <img className="w-[100px]" src={HemeraLogo} alt="logo" />
         <FooterSocialIconList />
-        <p>ul. Przykladowa 12, 70-000 Szczecin</p>
+        {/* <p>ul. Przykladowa 12, 70-000 Szczecin</p> */}
         <div>
           <p>+48 501 463 348</p>
           <p>+48 505 147 470</p>
         </div>
-        <p>email@przyklad.com</p>
+        <p>kontakt@hemerastudios.pl</p>
       </div>
       <div className="w-full flex flex-col xl:flex-row justify-between items-center gap-y-2">
         <p>© COPYRIGHT 2024 HEMERA STUDIOS</p>
