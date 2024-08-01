@@ -13,9 +13,9 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`fixed z-[9999] w-full h-[96px] px-5 xl:px-40 flex flex-row items-center justify-between ${backGround} transition-[background]`}>
+    <nav className={`fixed z-[9999] w-full py-3 xl:py-0 xl:h-[96px] px-5 xl:px-40 flex flex-row items-center justify-between ${backGround} transition-[background]`}>
       <Link to="/">
-        <img className="w-[100px]" src={HemeraLogo} alt="logo" />
+        <img className="w-[85px] xl:w-[100px]" src={HemeraLogo} alt="logo" />
       </Link>
       <NavItemList />
     </nav>

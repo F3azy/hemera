@@ -10,7 +10,7 @@ function ContactInfo({ value, Icon }) {
           <div className="bg-brand-primary w-5 h-5 blur-xl absolute top-0 left-0 translate-x-1/2 translate-y-1/2" />
         </div>
       )}
-      <div className="flex flex-col gap-y-3 text-white-base font-semibold tracking-wider text-xl">
+      <div className="w-full flex flex-col gap-y-3 text-white-base font-semibold tracking-wider text-xl">
         {value.map((v) => (
           <p>{v}</p>
         ))}
