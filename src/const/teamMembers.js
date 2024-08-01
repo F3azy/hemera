@@ -1,22 +1,19 @@
-import { Stachu } from "../assets";
+import { Bartek } from "../assets";
 
 export const team = [
   {
-    image: Stachu,
+    image: Bartek,
     name: "Stanisław Brzeziński",
     role: "Operator Drona, Montaż",
-    bgColor: "bg-gradient-to-b from-[#DBD524] to-[#5D5A00]",
   },
   {
-    image: Stachu,
+    image: Bartek,
     name: "Bartosz Machaj",
     role: "Operator Kamery, Montaż",
-    bgColor: "bg-gradient-to-b from-[#DB3024] to-[#5D0000]",
   },
   {
-    image: Stachu,
+    image: Bartek,
     name: "Edgar Junda",
     role: "Operator Kamery, Operator Drona, Montaż",
-    bgColor: "bg-gradient-to-b from-[#DB7924] to-[#432200]",
   },
 ];

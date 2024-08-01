@@ -1,6 +1,5 @@
 import HemeraLogo from "./hemera.svg";
 import HeroBG from "./HeroBackGround.mp4";
-import AboutAnimation from "./aboutLottie.json";
-import Stachu from './stachu.png'
+import Bartek from "./bartek.jpg";
 
-export { HemeraLogo, HeroBG, AboutAnimation, Stachu };
+export { HemeraLogo, HeroBG, Bartek };

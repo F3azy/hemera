@@ -11,7 +11,6 @@ const TeamMemberCardList = () => {
           image={member.image}
           name={member.name}
           role={member.role}
-          bgColor={member.bgColor}
         />
       ))}
     </div>
