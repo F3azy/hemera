@@ -11,6 +11,7 @@ const TeamMemberCardList = () => {
           image={member.image}
           name={member.name}
           role={member.role}
+          position={member.position}
         />
       ))}
     </div>

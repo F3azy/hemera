@@ -7,14 +7,15 @@ export const socialIcons = [
     link: "https://www.instagram.com/hemerastudios_/",
   },
   ,
-  { name: "Facebook", icon: FaFacebook, link: "https://www.facebook.com" },
+  {
+    name: "Facebook",
+    icon: FaFacebook,
+    link: "https://www.facebook.com/profile.php?id=61560291816686",
+  },
   ,
   {
     name: "Youtube",
     icon: FaYoutube,
     link: "https://www.youtube.com/@HemeraStudios",
   },
-  // { name: "TikTok", icon: FaTiktok, link: "https://www.tiktok.com" },
-  ,
-  ,
 ];
