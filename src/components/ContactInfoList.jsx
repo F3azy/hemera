@@ -4,7 +4,7 @@ import ContactInfo from "./ContactInfo";
 
 const ContactInfoList = () => {
   return (
-    <div className="grid grid-cols-2 gap-10">
+    <div className="flex flex-col xl:grid xl:grid-cols-3 gap-10">
       {contactInfo.map((contact) => (
         <ContactInfo key={contact.name} value={contact.value} Icon={contact.icon} />
       ))}

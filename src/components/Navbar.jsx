@@ -17,7 +17,7 @@ const Navbar = () => {
       <Link to="/">
         <img className="w-[85px] xl:w-[100px]" src={HemeraLogo} alt="logo" />
       </Link>
-      <NavItemList />
+      {/* <NavItemList /> */}
     </nav>
   );
 };

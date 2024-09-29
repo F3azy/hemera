@@ -7,7 +7,7 @@ export default {
         brand: {
           primary: "#DBD424",
         },
-        dark: { base: "#2B2B2B", 200: "#1e1e1e" },
+        dark: { base: "#2B2B2B", 200: "#1e1e1e", 300: "#1a1a1a" },
         white: { base: "#FBFBFB", darker: "#DFDFDF" },
       },
     },

@@ -5,7 +5,7 @@ import Team from "../sections/Team";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-y-20 xl:gap-y-44">
+    <div className="flex flex-col gap-y-20 xl:gap-y-48">
       <Hero />
       <About />
       <Team />

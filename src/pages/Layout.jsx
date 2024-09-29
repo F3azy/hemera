@@ -11,7 +11,7 @@ const Layout = () => {
       <main className="w-screen px-5 xl:px-40 pt-[96px] pb-5 xl:pb-0 flex-1">
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
