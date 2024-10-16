@@ -1,20 +1,20 @@
-import { BsTelephone } from "react-icons/bs";
-import { TbMail } from "react-icons/tb";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 export const contactInfo = [
   {
     name: "phone2",
-    icon: BsTelephone,
+    icon: FaPhoneAlt,
     value: "+48 505 147 470",
   },
   {
     name: "phone1",
-    icon: BsTelephone,
+    icon: FaPhoneAlt,
     value: "+48 501 463 348",
   },
   {
     name: "mail",
-    icon: TbMail,
+    icon: IoMdMail,
     value: "kontakt@hemerastudios.pl",
   },
 ];

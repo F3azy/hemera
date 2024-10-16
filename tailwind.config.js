@@ -6,6 +6,7 @@ export default {
       colors: {
         brand: {
           primary: "#DBD424",
+          darker: "#B9B202",
         },
         dark: { base: "#2B2B2B", 200: "#1e1e1e", 300: "#1a1a1a" },
         white: { base: "#FBFBFB", darker: "#DFDFDF" },
