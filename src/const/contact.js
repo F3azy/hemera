@@ -3,14 +3,14 @@ import { TbMail } from "react-icons/tb";
 
 export const contactInfo = [
   {
-    name: "phone1",
-    icon: BsTelephone,
-    value: "+48 501 463 348",
-  },
-  {
     name: "phone2",
     icon: BsTelephone,
     value: "+48 505 147 470",
+  },
+  {
+    name: "phone1",
+    icon: BsTelephone,
+    value: "+48 501 463 348",
   },
   {
     name: "mail",

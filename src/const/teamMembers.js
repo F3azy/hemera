@@ -4,13 +4,12 @@ export const team = [
   {
     image: Stasiek,
     name: "Stanisław Brzeziński",
-    role: "Operator Drona, Montaż",
+    role: "Montaż",
   },
   {
     image: Bartek,
     name: "Bartosz Machaj",
-    role: "Operator Kamery, Montaż",
-    position: "-bottom-1/2 left-0"
+    role: "Operator Kamery",
   },
   {
     image: Edgar,
