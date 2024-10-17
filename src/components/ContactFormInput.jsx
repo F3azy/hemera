@@ -5,7 +5,7 @@ const ContactFormInput = (props) => {
     <input
       className="w-full 
       py-1
-      bg-transparent 
+      bg-dark-200
       border-b-2 
       border-brand-primary 
       outline-none 

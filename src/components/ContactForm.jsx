@@ -36,11 +36,12 @@ const ContactForm = () => {
         onChange={handleChange}
         className="w-full 
         h-28
-        bg-transparent border-b-2 
+        bg-dark-200
+        border-b-2 
       border-brand-primary outline-none 
       placeholder:text-white-darker
-      placeholder:px-1
-      resize-none
+        placeholder:px-1
+        resize-none
       "
       />
       <button
