@@ -1,13 +1,17 @@
 import React from "react";
 import ContactFormInput from "./ContactFormInput";
 import useContactForm from "../hooks/useContactForm";
+import Spinner from "./Spinner";
 
 const ContactForm = () => {
   const { form, isLoading, isSubmitDisabled, handleChange, handleSubmit } =
     useContactForm();
 
   return (
-    <form className="w-full flex flex-col gap-y-5 items-end" onSubmit={handleSubmit}>
+    <form
+      className="w-full flex flex-col gap-y-5 items-end"
+      onSubmit={handleSubmit}
+    >
       <ContactFormInput
         placeholder="Imie"
         type="text"
@@ -45,15 +49,30 @@ const ContactForm = () => {
       "
       />
       <button
+        disabled={isSubmitDisabled}
         type="submit"
-        className="bg-brand-primary 
-        hover:bg-brand-darker
+        className={`
+        ${
+          isSubmitDisabled
+            ? "hover:cursor-not-allowed bg-brand-darker"
+            : "hover:cursor-pointer hover:bg-brand-darker bg-brand-primary"
+        }
+
         w-min 
         py-2 px-3 
         text-dark-base 
-        font-bold"
+        font-bold
+        flex
+        items-center
+        gap-x-2`}
       >
-        Wyślij
+        {isLoading ? (
+          <>
+            <Spinner /> "Wysyłam..."
+          </>
+        ) : (
+          "Wyślij"
+        )}
       </button>
     </form>
   );
