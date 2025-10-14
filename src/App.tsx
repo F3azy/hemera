@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      Hello World
+      <h1 className="text-brand">Hello World</h1>
     </>
   )
 }
