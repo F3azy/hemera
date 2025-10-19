@@ -2,17 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+@layer utilities {
+  .clip-hero {
+    clip-path: polygon(0 15%, 100% 35%, 100% 95%, 0 75%);
+  }
+
+  .clip-hero-border {
+    background: linear-gradient(#edb63b 50%, #f9f9f9 50%);
+    clip-path: polygon(0 13%, 100% 33%, 100% 97%, 0 77%);
+  }
 }
 
-body, html {
-    background-color: #2B2B2B;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+  background-color: #2b2b2b;
 }
 
 video::-webkit-media-controls {
-    display:none !important;
+  display: none !important;
 }
