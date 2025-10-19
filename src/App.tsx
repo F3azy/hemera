@@ -4,7 +4,7 @@ import { Hero } from "./sections";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <Hero />
       </div>
